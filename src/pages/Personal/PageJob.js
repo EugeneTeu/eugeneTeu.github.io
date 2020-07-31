@@ -43,7 +43,7 @@ class PageJob extends Component {
               </Col>
             </Row>
             <Row className="row-eq-height">
-              <Col>
+              
              
             <div className=" p-4 position-relative overflow-hidden">
                   <div className="head pb-3 ">
@@ -81,7 +81,7 @@ class PageJob extends Component {
                     </li>
                   </ul>
                 </div>
-                </Col>
+              
                 <div className=" p-4 position-relative overflow-hidden">
                   <div className="head pb-3">
                     <ul className="list-unstyled mb-0">
