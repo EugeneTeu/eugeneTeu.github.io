@@ -43,11 +43,9 @@ class About extends Component {
               </Col>
 
               <Col md={6} className="mt-4 mt-sm-0 pt-2 pt-sm-0">
-                <div className="ml-md-4">
-                  <div className="progress-box">
-                    <h6 className="title text-muted">
-                      Flutter / Flutter for Web
-                    </h6>
+              <div className="ml-md-4">
+              <div className="progress-box ">
+                    <h6 className="title text-muted">React</h6>
                     <div
                       className="text-right text-muted"
                       style={{
@@ -60,6 +58,84 @@ class About extends Component {
                       90%
                     </div>
                     <Progress value="90" />
+                  </div>
+                  <div className="progress-box mt-4">
+                    <h6 className="title text-muted">Typescript</h6>
+                    <div
+                      className="text-right text-muted"
+                      style={{
+                        fontSize: "12px",
+                        lineHeight: "5px",
+                        marginTop: "-12px",
+                        marginBottom: "6px"
+                      }}
+                    >
+                      70%
+                    </div>
+                    <Progress value="70" />
+                  </div>
+                  <div className="progress-box mt-4">
+                    <h6 className="title text-muted">Javascript</h6>
+                    <div
+                      className="text-right text-muted"
+                      style={{
+                        fontSize: "12px",
+                        lineHeight: "5px",
+                        marginTop: "-12px",
+                        marginBottom: "6px"
+                      }}
+                    >
+                      75%
+                    </div>
+                    <Progress value="75" />
+                  </div>
+                  <div className="progress-box mt-4">
+                    <h6 className="title text-muted">HTML</h6>
+                    <div
+                      className="text-right text-muted"
+                      style={{
+                        fontSize: "12px",
+                        lineHeight: "5px",
+                        marginTop: "-12px",
+                        marginBottom: "6px"
+                      }}
+                    >
+                      70%
+                    </div>
+                    <Progress value="70" />
+                  </div>
+                  <div className="progress-box mt-4">
+                    <h6 className="title text-muted">CSS</h6>
+                    <div
+                      className="text-right text-muted"
+                      style={{
+                        fontSize: "12px",
+                        lineHeight: "5px",
+                        marginTop: "-12px",
+                        marginBottom: "6px"
+                      }}
+                    >
+                      70%
+                    </div>
+                    <Progress value="70" />
+                  </div>
+           
+                  <div className="progress-box mt-4">
+                    <h6 className="title text-muted">
+                      Flutter / Flutter for Web
+                    </h6>
+                    <div
+                      className="text-right text-muted"
+                      style={{
+                        fontSize: "12px",
+                        lineHeight: "5px",
+                        marginTop: "-12px",
+                        marginBottom: "6px"
+                      }}
+                    >
+                      70%
+                    </div>
+                    <Progress value="70" />
                     {/* 2f55d4  */}
                   </div>
                   <div className="progress-box mt-4">
@@ -93,21 +169,6 @@ class About extends Component {
                     <Progress value="90" />
                   </div>
                   <div className="progress-box mt-4">
-                    <h6 className="title text-muted">React</h6>
-                    <div
-                      className="text-right text-muted"
-                      style={{
-                        fontSize: "12px",
-                        lineHeight: "5px",
-                        marginTop: "-12px",
-                        marginBottom: "6px"
-                      }}
-                    >
-                      70%
-                    </div>
-                    <Progress value="72" />
-                  </div>
-                  <div className="progress-box mt-4">
                     <h6 className="title text-muted">Golang</h6>
                     <div
                       className="text-right text-muted"
@@ -118,55 +179,11 @@ class About extends Component {
                         marginBottom: "6px"
                       }}
                     >
-                      65%
+                      50%
                     </div>
-                    <Progress value="65" />
+                    <Progress value="50" />
                   </div>
-                  <div className="progress-box mt-4">
-                    <h6 className="title text-muted">JavaScript</h6>
-                    <div
-                      className="text-right text-muted"
-                      style={{
-                        fontSize: "12px",
-                        lineHeight: "5px",
-                        marginTop: "-12px",
-                        marginBottom: "6px"
-                      }}
-                    >
-                      75%
-                    </div>
-                    <Progress value="75" />
-                  </div>
-                  <div className="progress-box mt-4">
-                    <h6 className="title text-muted">HTML</h6>
-                    <div
-                      className="text-right text-muted"
-                      style={{
-                        fontSize: "12px",
-                        lineHeight: "5px",
-                        marginTop: "-12px",
-                        marginBottom: "6px"
-                      }}
-                    >
-                      70%
-                    </div>
-                    <Progress value="71" />
-                  </div>
-                  <div className="progress-box mt-4">
-                    <h6 className="title text-muted">CSS</h6>
-                    <div
-                      className="text-right text-muted"
-                      style={{
-                        fontSize: "12px",
-                        lineHeight: "5px",
-                        marginTop: "-12px",
-                        marginBottom: "6px"
-                      }}
-                    >
-                      70%
-                    </div>
-                    <Progress value="70" />
-                  </div>
+                
                   <div className="progress-box mt-4">
                     <h6 className="title text-muted">Haskell / Prolog</h6>
                     <div

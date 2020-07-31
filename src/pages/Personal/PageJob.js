@@ -29,7 +29,11 @@ class PageJob extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="section" style={{padding: "50px 0px"}} id="workExperience" >
+        <section
+          className="section"
+          style={{ padding: "50px 0px" }}
+          id="workExperience"
+        >
           <div className="container">
             <Row className="border-bottom">
               <Col lg={12} md={8} className="mt-sm-0 pt-sm-0">
@@ -39,144 +43,127 @@ class PageJob extends Component {
               </Col>
             </Row>
             <Row className="row-eq-height">
-            <Col lg={4} md={6} className="col-12 mt-4 ">
-                <div className=" p-4 position-relative overflow-hidden">
-                  <div className="head pb-3 border-bottom">
+            <div className=" p-4 position-relative overflow-hidden">
+                  <div className="head pb-3 ">
                     <ul className="list-unstyled mb-0">
-                
                       <li className="list-inline-item text-success">
                         Full Time
                       </li>
                     </ul>
                     <h4>
                       <Link to="page-job-detail" className="text-dark title">
-                       Software Engineer Intern
+                        Software Engineer Intern
                       </Link>
                     </h4>
                     <p className="mb-2 h6 text-info">
-                    
                       <Link to="#" className="h6 text-dark firm">
                         Shopee Singapore
                       </Link>
                     </p>
-                    <p className="mb-2 h6 text-info">
-                      May 2020 - Aug 202
-                        </p>
+                    <p className="mb-2 h6 text-info">May 2020 - Aug 202</p>
                     <p className="mb-0">
                       <Link to="#" className="text-muted place">
                         Singapore
                       </Link>
                     </p>
                   </div>
-                  <ul className="job-facts pt-3 list-unstyled">
-                    <li className="list-inline-item text-muted">
-                     
-                    Incoming Software Engineer intern
+                  <ul className="job-facts pt-3 list-unstyled border-top vw-100">
+                    <li className="list-item text-muted">
+                     Front-End Software Engineer intern under Discover Landing product line
                     </li>
-                
+                    <li className="list-item text-muted">
+                      Developed and delivered three features for regional administrative portal using ReactJs and Typescript
+                    </li>
+                    <li className="list-item text-muted">
+                      Took Charge of feature over various stages of the Software development life cycle
+                    </li>
                   </ul>
-                  
                 </div>
-              </Col>
-              <Col lg={4} md={6} className="col-12 mt-4 ">
                 <div className=" p-4 position-relative overflow-hidden">
-                  <div className="head pb-3 border-bottom">
+                  <div className="head pb-3">
                     <ul className="list-unstyled mb-0">
-                
                       <li className="list-inline-item text-success">
                         Full Time/Part-Time
                       </li>
                     </ul>
                     <h4>
                       <Link to="page-job-detail" className="text-dark title">
-                       Tech Intern
+                        Tech Intern
                       </Link>
                     </h4>
                     <p className="mb-2 h6 text-info">
-                    
                       <Link to="#" className="h6 text-dark firm">
                         Ps Love Pte Ltd
                       </Link>
                     </p>
-                    <p className="mb-2 h6 text-info">
-                        Dec 2019 - April 2020
-                        </p>
+                    <p className="mb-2 h6 text-info">Dec 2019 - April 2020</p>
                     <p className="mb-0">
                       <Link to="#" className="text-muted place">
                         Singapore
                       </Link>
                     </p>
                   </div>
-                  <ul className="job-facts pt-3 list-unstyled">
-                    <li className="list-inline-item text-muted">
-                     
-                    Built and deployed an internal business management system via Flutter
+                  <ul className="job-facts pt-3 list-unstyled border-top vw-100">
+                    <li className="list-item text-muted">
+                      Built and deployed an internal business management system
+                      via Flutter
                     </li>
-                    <li className="list-inline-item text-muted">
-                      Developed company landing and ecommerce website in Flutter for Web
-                      </li>
-                    <li className="list-inline-item text-muted">
+                    <li className="list-item text-muted">
+                      Developed company landing and ecommerce website in Flutter
+                      for Web
+                    </li>
+                    <li className="list-item text-muted">
                       Implemented comprehensive integration and unit tests
-                      </li>
-                    <li className="list-inline-item text-muted">
-                      Boosted automation with cloud functions written using Golang and Node Js
-                      </li>
+                    </li>
+                    <li className="list-item text-muted">
+                      Boosted automation with cloud functions written using
+                      Golang and Node Js
+                    </li>
                   </ul>
-                  
                 </div>
-              </Col>
-             
-              <Col lg={4} md={6} className="col-12 mt-4 ">
                 <div className="p-4  position-relative overflow-hidden">
-                  <div className="head pb-3 border-bottom">
+                  <div className="head pb-3 ">
                     <ul className="list-unstyled mb-0">
-                
                       <li className="list-inline-item text-success">
                         Full Time
                       </li>
                     </ul>
                     <h4>
                       <Link to="page-job-detail" className="text-dark title">
-                       Full Stack Software Engineer
+                        Full Stack Software Engineer
                       </Link>
                     </h4>
                     <p className="mb-2 h6 text-info">
-                
                       <Link to="#" className="h6 text-dark firm">
                         Google Developer Student Club @ Nus
                       </Link>
                     </p>
-                    <p className="mb-2 h6 text-info">
-                        Dec 2019 - Jun 2020
-                        </p>
+                    <p className="mb-2 h6 text-info">Dec 2019 - Jun 2020</p>
                     <p className="mb-0">
                       <Link to="#" className="text-muted place">
                         Singapore
                       </Link>
                     </p>
                   </div>
-                  <ul className="job-facts pt-3 list-unstyled">
-                    <li className="list-inline-item text-muted">
-                     Developed and deployed a Pre-employment / Career readiness platform aimed at helping disadvantaged youths
+                  <ul className="job-facts pt-3 list-unstyled border-top vw-100 ">
+                    <li className="list-item text-muted">
+                      Developed and deployed a Pre-employment / Career readiness
+                      platform aimed at helping disadvantaged youths
                     </li>
-                    <li className="list-inline-item text-muted">
-                      Spearheaded and Responsible for front-end Development using ReactJs
+                    <li className="list-item text-muted">
+                      Spearheaded and Responsible for front-end Development
+                      using ReactJs
                     </li>
-                    <li className="list-inline-item text-muted">
-                    Currently working and partnering with local Social Enterprises to integrate our product and boost their effectiveness
+                    <li className="list-item text-muted">
+                      Currently working and partnering with local Social
+                      Enterprises to integrate our product and boost their
+                      effectiveness
                     </li>
                   </ul>
-                  
                 </div>
-              </Col>
-              <Col lg={4} md={6} className="col-12 mt-4 ">
-                </Col>
-
-              <Col lg={4} md={6} className="col-12 mt-4 pt-2">
                 <div className=" p-4  position-relative overflow-hidden">
-                  <div className="head pb-3 border-bottom">
+                  <div className="head pb-3">
                     <ul className="list-unstyled mb-0">
-                  
                       <li className="list-inline-item text-success">
                         Full Time
                       </li>
@@ -187,36 +174,30 @@ class PageJob extends Component {
                       </Link>
                     </h4>
                     <p className="mb-2 h6 text-info">
-                      
                       <Link to="#" className="h6 text-dark firm">
                         Webpuppies Pte Ltd
                       </Link>
                     </p>
-                    <p className="mb-2 h6 text-info">
-                        May 2019 - Aug 2019
-                        </p>
+                    <p className="mb-2 h6 text-info">May 2019 - Aug 2019</p>
                     <p className="mb-0">
                       <Link to="#" className="text-muted place">
                         Singapore
                       </Link>
                     </p>
                   </div>
-                  <ul className="job-facts pt-3 list-unstyled">
-                   
-                    <li className="list-inline-item text-muted">
-                     
-                     Incorporated technologies (Vuejs, Yii2 framework , PHP) and CMSes (Wordpress and Drupal) across various projects for clients
+                  <ul className="job-facts pt-3 list-unstyled border-top vw-100">
+                    <li className="list-item text-muted">
+                      Incorporated technologies (Vuejs, Yii2 framework , PHP)
+                      and CMSes (Wordpress and Drupal) across various projects
+                      for clients
                     </li>
-                    <li className="list-inline-item text-muted">
-
-                     Spearheaded project management and achieved project completion for companies like Adidas/Reebok while managing key client relationships within the company
+                    <li className="list-item text-muted">
+                      Spearheaded project management and achieved project
+                      completion for companies like Adidas/Reebok while managing
+                      key client relationships within the company
                     </li>
-                    
                   </ul>
                 </div>
-              </Col>
-              <Col lg={4} md={6} className="col-12 mt-4 ">
-                </Col>
             </Row>
           </div>
         </section>

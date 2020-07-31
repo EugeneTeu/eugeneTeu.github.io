@@ -40,6 +40,7 @@ class ContactMe extends Component {
                 <div className="team text-center">
                   <div className="position-relative">
                     <img
+                      alt="Eugene Teu"
                       src={dscPic}
                       className="img-fluid d-block rounded-pill mx-auto"
                      

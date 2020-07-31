@@ -57,8 +57,6 @@ class Index extends Component {
                                                     <span className="element">Eugene Teu</span>
                                                     <Typist.Backspace count={20} delay={200} />
                                                     <span className="element">Computer Science</span>
-                                                    <Typist.Backspace count={30} delay={150} />
-                                                    <span className="element">Software Development</span>
                                                     <Typist.Backspace count={20} delay={150} />
                                                     <span className="element">Eugene Teu</span>
                                                
