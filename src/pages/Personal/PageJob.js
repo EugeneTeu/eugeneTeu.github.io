@@ -43,6 +43,8 @@ class PageJob extends Component {
               </Col>
             </Row>
             <Row className="row-eq-height">
+              <Col>
+             
             <div className=" p-4 position-relative overflow-hidden">
                   <div className="head pb-3 ">
                     <ul className="list-unstyled mb-0">
@@ -67,7 +69,7 @@ class PageJob extends Component {
                       </Link>
                     </p>
                   </div>
-                  <ul className="job-facts pt-3 list-unstyled border-top vw-100">
+                  <ul className="job-facts pt-3 list-unstyled border-top vw-100 job-description">
                     <li className="list-item text-muted">
                      Front-End Software Engineer intern under Discover Landing product line
                     </li>
@@ -79,6 +81,7 @@ class PageJob extends Component {
                     </li>
                   </ul>
                 </div>
+                </Col>
                 <div className=" p-4 position-relative overflow-hidden">
                   <div className="head pb-3">
                     <ul className="list-unstyled mb-0">
@@ -103,7 +106,7 @@ class PageJob extends Component {
                       </Link>
                     </p>
                   </div>
-                  <ul className="job-facts pt-3 list-unstyled border-top vw-100">
+                  <ul className="job-facts pt-3 list-unstyled border-top vw-100 job-description">
                     <li className="list-item text-muted">
                       Built and deployed an internal business management system
                       via Flutter
@@ -145,7 +148,7 @@ class PageJob extends Component {
                       </Link>
                     </p>
                   </div>
-                  <ul className="job-facts pt-3 list-unstyled border-top vw-100 ">
+                  <ul className="job-facts pt-3 list-unstyled border-top vw-100 job-description ">
                     <li className="list-item text-muted">
                       Developed and deployed a Pre-employment / Career readiness
                       platform aimed at helping disadvantaged youths
@@ -185,7 +188,7 @@ class PageJob extends Component {
                       </Link>
                     </p>
                   </div>
-                  <ul className="job-facts pt-3 list-unstyled border-top vw-100">
+                  <ul className="job-facts pt-3 list-unstyled border-top vw-100 job-description">
                     <li className="list-item text-muted">
                       Incorporated technologies (Vuejs, Yii2 framework , PHP)
                       and CMSes (Wordpress and Drupal) across various projects
