@@ -40,7 +40,7 @@ class ShowCase extends Component {
             <Row className="justify-content-center">
               <Col className="text-center">
                 <div className="section-title mb-60">
-                  <h4 className="main-title mb-4">
+                  <h4 className="main-title mb-4 mt-4">
                     <span className="text-primary">Side</span> Projects
                   </h4>
                   <p className="text-muted para-desc mb-0 mx-auto">
